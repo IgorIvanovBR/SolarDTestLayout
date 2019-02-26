@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+}
+#wrapper{
+}
+header {
+    width: auto;
+    min-width: 1080px;
+    height: auto;
+    min-height: 70px;
+    margin-bottom: -50px;
+    margin-top: 0;
+    background: linear-gradient(-90deg, #1ACBFD, #345AFF) no-repeat;
+    background-size: 100%;
+}
+header p a:hover{
+    text-decoration: underline;
+}
+#logo{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+#hList{
+    display: inline-flex;
+    padding-top: 15px;
+    position: absolute;
+    right: 100px;
+}
+.hListElem{
+    padding-right: 15px;
+    font-family: "Qanelas Light", serif;
+    color: white;
+}
+.hListElem a{
+    color: white;
+    text-decoration: none;
+}
+#RegBtn {
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    margin-top: 7px;
+    font-family: "Qanelas Light", serif;
+    transition:all 0.3s ease;
+}
+input#RegBtn:hover {
+    transition:all 0.3s ease;
+    background-color: #1ACBFD;
+}
+#fBlock {
+    width: auto;
+    min-width: 1080px;
+    min-height: 900px;
+    color: white;
+    font-size: 30px;
+    font-family: "Qanelas Light", serif;
+    line-height: 70px;
+    text-align: center;
+    background: url("../img/1.png"), linear-gradient(-90deg, #1ACBFD, #345AFF);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#fMainText{
+    padding-top: 20%;
+    margin-bottom: -30px;
+}
+#fDopText {
+    margin-bottom: -10px;
+}
+#fButton {
+    background-color: #00D0F1;
+    border-color: #00D0F1;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px 4px;
+    color: white;
+    font-size: 15px;
+    transition:all 0.3s ease;
+}
+input#fButton:hover {
+    transition:all 0.6s ease;
+    background-color: #345AFF;
+    border-color: #345AFF;
+}
+#secondBlock{
+    width: auto;
+    height: 350px;
+    background-color: #f2f2f2;
+}
+.fTable {
+    background-color: white;
+    position: absolute;
+    left: 550px;
+    bottom: -200px;
+    border-radius: 10px;
+    height: 300px;
+}
+img.tdImg:hover {
+    transition:all 0.3s ease;
+    transform: scale(1.2);
+}
+.tdStyle {
+  text-align: left;
+    width: 400px;
+    height: 100px;
+}
+.tdImg{
+    transition:all 0.3s ease;
+    float: left;;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-right: -50px;
+}
+.tdText {
+    margin-top: 30px;
+    padding-left: 120px;
+    font-family: "Qanelas Light", sans-serif;
+}
+#ThirdBlock{
+    width: auto;
+}
+#buttons{
+    position: relative;
+    padding-left: 560px;
+    background-color: #f2f2f2;
+    transition:all 0.3s ease;
+
+}
+#buttons input:hover {
+    transition:all 0.3s ease;
+    background-color: lightgrey;
+}
+.buttonsStyle{
+    background-color: white;
+    font-family: "Qanelas Light", sans-serif;
+    height: 50px;
+    width: 220px;
+    border-color: transparent;
+    margin-left: -20px;
+}
+#thirdBlockImages {
+    width: auto;
+    height: 500px;
+}
+#fourthBlock {
+    width: auto;
+    height: 500px;
+}
+#secondHead {
+    text-align: center;
+    font-family: "Qanelas Light", sans-serif;
+    font-size: 40px;
+}
+#fimgContainter{
+    text-align: center;
+
+}
+.fouthBlockImg {
+    padding-right: 50px;
+    transition:all 0.3s ease;
+}
+img.fouthBlockImg:hover{
+    transition:all 0.3s ease;
+    transform: scale(1.2);
+}
+#mobileVersion {
+    width: auto;
+    height: 700px;
+    background: url(../img/mobile1.png) no-repeat;
+    margin-left: -10px;
+
+
+}
+#imgUnderMobile{
+    display: flex
+}
+#firstPhone {
+    position: relative;
+    left: 950px;
+    bottom: 300px;
+    transition:all 0.3s ease;
+}
+img#firstPhone:hover{
+    transition:all 0.3s ease;
+    transform: scale(0.9);
+}
+#secondPhone {
+    position: relative;
+    left: 1000px;
+    bottom: 400px;
+    transition:all 0.3s ease;
+}
+img#secondPhone:hover {
+    transition:all 0.3s ease;
+    transform: scale(0.9);
+}
+#thirdHead {
+    position: relative;
+   color: white;
+    font-family: "Qanelas Light", sans-serif;
+    left: 200px;
+    width: 600px;
+    top: 150px;
+    line-height: 40px;
+    font-size: 40px;
+
+}
+#thirdText{
+    position: relative;
+    color: white;
+    font-family: "Qanelas Medium", sans-serif;
+    left: 200px;
+    top: 120px;
+    font-size: 20px;
+    width: 600px;
+}
+#infoBlock {
+    width: auto;
+    height: 500px;
+
+}
+#lastHead{
+    font-family: "Qanelas Light", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: lightslategray;
+}
+#lastTable{
+    position: relative;
+    left: 285px;
+    font-size: 20px;
+    color: lightslategray;
+    top: -50px;
+    font-family: "Qanelas Medium", sans-serif;
+}
+#footerTable {
+    text-align: left;
+    margin-bottom: 30px;
+    float: left;
+
+}
+#footerTable a {
+    z-index: 2;
+    font-family: "Qanelas Light", sans-serif;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 280px;
+    font-size: 18px;
+    padding-right: 80px;
+
+}
+footer #footerTable a:hover{
+    text-decoration: underline;
+}
+#links {
+    position: relative;
+    width: 300px;
+    padding-left: 1120px;
+    letter-spacing: 30px;
+
+
+}
+#networkLinks a {
+    position: relative;
+    top: -40px;
+    left: 650px;
+    padding-right: 10px;
+
+}
+#companyLogo {
+    position: relative;
+    left: 670px;
+
+}
