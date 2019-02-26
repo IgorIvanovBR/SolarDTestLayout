@@ -37,12 +37,21 @@
     </div>
    <div id="ThirdBlock">
        <div id="buttons">
-           <input type="button" value="Минимальный депозит 10$" class="buttonsStyle">
-           <input type="button" value="Персональный Менеджер" class="buttonsStyle">
-           <input type="button" value="Бесплатное обучение" class="buttonsStyle">
-           <input type="button" value="Круглосуточка поддержка" class="buttonsStyle">
+          <a style="text-decoration: none;" href="#content1"> <input type="button" value="Минимальный депозит 10$"  class="buttonsStyle"></a>
+           <a style="text-decoration: none;" href="#content2"><input type="button" value="Персональный Менеджер" class="buttonsStyle"></a>
+           <a style="text-decoration: none;" href="#content3"><input type="button" value="Бесплатное обучение" class="buttonsStyle"></a>
+           <a style="text-decoration: none;" href="#content4"><input type="button" value="Круглосуточка поддержка" class="buttonsStyle"></a>
        </div>
-       <div id="thirdBlockImages">
+       <div id="thirdBlockImages" class="tabs_content">
+           <div id="content1">
+               <h2 id="depositText">Минимальный Депозит</h2>
+               <p id="deposinSubText">Реальный счет позволит вам зарабатывать реальные<br> деньги. Для открытия реального счёта необходимо лишь<br> зарегистрироваться и пополнить торговый счет.<br> Минимальный депозит составляет всего 10 $.<br>Это реальный шанс увеличить свой доход!</p>
+               <img src="img/wallet.png" id="wallet">
+               <img src="img/10price.png" id="price10">
+           </div>
+           <div id="content2"><p>Sample Text 2</p></div>
+           <div id="content3"><p>Sample text 3</p></div>
+           <div id="content4"><p>Sample text 4</p></div>
        </div>
    </div>
      <div id="fourthBlock">
@@ -111,5 +120,7 @@
         <a href="#" id="companyLogo"><img src="img/logosolar.png"></a>
     </footer>
 </div>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/secondBlockChanges.js"></script>
 </body>
 </html>

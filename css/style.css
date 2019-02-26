@@ -137,12 +137,39 @@ img.tdImg:hover {
     font-family: "Qanelas Light", sans-serif;
     height: 50px;
     width: 220px;
-    border-color: transparent;
+
     margin-left: -20px;
+    border: red;
+    outline: none;
+    text-decoration: none;
 }
 #thirdBlockImages {
     width: auto;
     height: 500px;
+}
+#wallet {
+    position: relative;
+    left: 1200px;
+    top: -150px;
+}
+#price10 {
+    position: relative;
+    left: -455px;
+    top: -500px;
+}
+#depositText {
+    position: relative;
+    left: 500px;
+    top: 150px;
+    font-family: "Qanelas Light", sans-serif;
+    font-size: 40px;
+}
+#deposinSubText {
+    position: relative;
+    left: 500px;
+    top: 150px;
+    font-family: "Qanelas Light", sans-serif;
+    font-size: 20px;
 }
 #fourthBlock {
     width: auto;
@@ -273,5 +300,14 @@ footer #footerTable a:hover{
 #companyLogo {
     position: relative;
     left: 670px;
+
+}
+
+/* additional part for the switchers */
+
+.tabs_content  {width:300px; height:200px;   }
+.tabs_content>div { display: none;}
+#buttons>a input.current {
+    background-color: black;
 
 }
